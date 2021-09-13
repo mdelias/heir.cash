@@ -1,10 +1,10 @@
 ---
-title: Get Yours
+title: Store
 layout: layouts/base.njk
-subtitle: Clone and deploy your own EleventyOne starter template.
+subtitle: Purchase a word-list, starter kit, or WY SF today.
 ---
 
-## Hosting
+## SAFU Wallet
 
 This site is deployed by, and hosted by [Netlify](https://www.netlify.com).
 
@@ -14,7 +14,7 @@ Latest deploy status: [![Netlify Status](https://api.netlify.com/api/v1/badges/0
 
 </div>
 
-## One-click deploy
+## WY Statutory Foundation
 
 To get your own instance of this [Eleventy](https://11ty.io) starter project cloned and deploying to [Netlify](https://www.netlify.com) very quickly, just click the button below and follow the instructions.
 
