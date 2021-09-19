@@ -1,5 +1,5 @@
 ---
-title: heir.cash
+title: 💸heir.cash
 subtitle: Estate Planning & Fiduciary Safekeeping <br>for Bitcoin Seed Material & Backups <br>by <a href="https://xbt.llc">xbt.llc</a>
 layout: layouts/base.njk
 ---
