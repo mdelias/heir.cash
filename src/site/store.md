@@ -4,33 +4,31 @@ layout: layouts/base.njk
 subtitle: Purchase a word-list, starter kit, or WY SF today.
 ---
 
+## Physical BIP-39 Word-List
+
++ GPG Signed BIP-39 wordlist
+
++ 5 pgs laminated card stock
+
++ Cut-out and pull 24+ words from hat
+
+
 ## SAFU Self-Custody Kit
 
-+Signed BIP-39 wordlist
++ Signed BIP-39 wordlist
 
-+30 18-8 stainless steel washers for additional words/pin numbers
++ 30 18-8 stainless steel washers for additional words/pin numbers
 
-+36pc. 1/8" steel alphanumeric stamping set
++ 36pc. 1/8" steel alphanumeric stamping set
 
-+3d printed Blockmit washer jig
++ 3d printed Blockmit washer jig
 
-
-
-<div class="nakedLink">
-
-Latest deploy status: [![Netlify Status](https://api.netlify.com/api/v1/badges/056b4a67-70e6-4af4-9be5-dee151b8e906/deploy-status)](https://app.netlify.com/sites/eleventyone/deploys)
-
-</div>
 
 ## WY Statutory Foundation
 
-To get your own instance of this [Eleventy](https://11ty.io) starter project cloned and deploying to [Netlify](https://www.netlify.com) very quickly, just click the button below and follow the instructions.
++ The Wyoming Statutory Foundation, combines elements of well- established trust and corporate law in Wyoming with classical elements of foundation legislation found in civil law jurisdictions, while also providing access to Wyoming’s privacy and asset preservation laws.
 
-<div class="nakedLink">
 
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/philhawksworth/eleventyone)
-
-</div>
 
 ## 👆 Wait, what happens when I click that button?
 
