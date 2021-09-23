@@ -32,13 +32,11 @@ subtitle: Purchase a word-list, starter kit, or WY SF today.
   <input type="hidden" name="price" value="35" />
   <input type="hidden" name="currency" value="USD" />
   <input type="button" class="submit" name="submit">
-<button class="inline-flex text-white bg-yellow-500 border-0 py-2 px-6 focus:outline-none hover:bg-yellow-600 rounded text-lg">
-Pay now
-</button>
+  <input type="image" class="submit" name="submit" src="https://btcpay.wyo.llc/img/paybutton/pay.svg" style="width:146px" alt="Pay with BtcPay, Self-Hosted Bitcoin Payment Processor">
 </form>
 
 
-##Add-on Safu
+## Add-on Safu
 
 + 1pc. 18-8 stainless steel 1/4"-20 x 2", and cap nut
 
