@@ -4,9 +4,17 @@ layout: layouts/base.njk
 subtitle: Purchase a word-list, starter kit, or WY SF today.
 ---
 
-## SAFU Wallet
+## SAFU Self-Custody Kit
 
-This site is deployed by, and hosted by [Netlify](https://www.netlify.com).
++Signed BIP-39 wordlist
+
++30 18-8 stainless steel washers for additional words/pin numbers
+
++36pc. 1/8" steel alphanumeric stamping set
+
++3d printed Blockmit washer jig
+
+
 
 <div class="nakedLink">
 
