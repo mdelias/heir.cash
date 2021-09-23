@@ -22,7 +22,7 @@ subtitle: Purchase a word-list, starter kit, or WY SF today.
     <select name="currency">
       <option value="USD" selected>USD</option>
     </select>
-    <input class="btcpay-input-range" id="btcpay-input-range" value="null" type="range" min="2" max="20" step="2" style="width:146px;margin-bottom:15px;" oninput="document.querySelector('#btcpay-input-price').value = document.querySelector('#btcpay-input-range').value" />
+    <input class="btcpay-input-range" id="btcpay-input-range" value="2" type="range" min="2" max="20" step="2" style="width:146px;margin-bottom:15px;" oninput="document.querySelector('#btcpay-input-price').value = document.querySelector('#btcpay-input-range').value" />
   </div>
 <button type="submit" class="submit" name="submit" style="min-width:146px; min-height:40px; border-radius: 4px;border-style: none;background-color: #F59E0C;" alt="Pay with BtcPay, Self-Hosted Bitcoin Payment Processor"><span style="color:#fff">But now $2 ea.</span>
 </button></form>
@@ -68,7 +68,7 @@ subtitle: Purchase a word-list, starter kit, or WY SF today.
       <option value="EUR">EUR</option>
       <option value="BTC">BTC</option>
     </select>
-    <input class="btcpay-input-range" id="btcpay-input-range" value="null" type="range" min="5" max="100" step="5" style="width:146px;margin-bottom:15px;" oninput="document.querySelector('#btcpay-input-price').value = document.querySelector('#btcpay-input-range').value" />
+    <input class="btcpay-input-range" id="btcpay-input-range" value="5" type="range" min="5" max="100" step="5" style="width:146px;margin-bottom:15px;" oninput="document.querySelector('#btcpay-input-price').value = document.querySelector('#btcpay-input-range').value" />
   </div>
 <button type="submit" class="submit" name="submit" style="min-width:146px; min-height:40px; border-radius: 4px;border-style: none;background-color: #F59E0C;" alt="Pay with BtcPay, Self-Hosted Bitcoin Payment Processor"><span style="color:#fff">Buy now $5 ea.</span>
 </button></form>
