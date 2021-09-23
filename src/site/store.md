@@ -64,9 +64,6 @@ subtitle: Purchase a word-list, starter kit, or WY SF today.
     <input id="btcpay-input-price" name="price" type="text" min="0" max="none" step="any" value="null" style="width: 146px;" oninput="event.preventDefault();isNaN(event.target.value)? document.querySelector('#btcpay-input-price').value = null : event.target.value; if (this.value < undefined) {this.value = undefined; } else if(this.value > undefined){  this.value = undefined;}" onchange= "var el=document.querySelector('#btcpay-input-price'); var price = parseInt(el.value);  if(price< 5) { el.value = 5} else if(price> 100) { el.value = 100} document.querySelector('#btcpay-input-range').value = el.value" />
     <select name="currency">
       <option value="USD" selected>USD</option>
-      <option value="GBP">GBP</option>
-      <option value="EUR">EUR</option>
-      <option value="BTC">BTC</option>
     </select>
     <input class="btcpay-input-range" id="btcpay-input-range" value="5" type="range" min="5" max="100" step="5" style="width:146px;margin-bottom:15px;" oninput="document.querySelector('#btcpay-input-price').value = document.querySelector('#btcpay-input-range').value" />
   </div>
