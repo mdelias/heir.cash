@@ -31,8 +31,7 @@ subtitle: Purchase a word-list, starter kit, or WY SF today.
   <input type="hidden" name="notifyEmail" value="heir@xbt.llc" />
   <input type="hidden" name="price" value="35" />
   <input type="hidden" name="currency" value="USD" />
-  <input type="button" class="submit" name="submit">
-  <input type="image" class="submit" name="submit" src="https://btcpay.wyo.llc/img/paybutton/pay.svg" style="width:146px" alt="Pay with BtcPay, Self-Hosted Bitcoin Payment Processor">
+<button type="submit" class="submit" name="submit" style="min-width:146px; min-height:40px; border-radius: 4px;border-style: none;background-color: #F59E0C;" alt="Pay with BtcPay, Self-Hosted Bitcoin Payment Processor"><span style="color:#fff">But now $35</span>
 </form>
 
 
