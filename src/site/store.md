@@ -24,7 +24,7 @@ subtitle: Purchase a word-list, starter kit, or WY SF today.
     </select>
     <input class="btcpay-input-range" id="btcpay-input-range" value="2" type="range" min="2" max="20" step="2" style="width:146px;margin-bottom:15px;" oninput="document.querySelector('#btcpay-input-price').value = document.querySelector('#btcpay-input-range').value" />
   </div>
-<button type="submit" class="submit" name="submit" style="min-width:146px; min-height:40px; border-radius: 4px;border-style: none;background-color: #F59E0C;" alt="Pay with BtcPay, Self-Hosted Bitcoin Payment Processor"><span style="color:#fff"><p style="font-size:14px">Buy now $2 ea.</p></span>
+<button type="submit" class="submit" name="submit" style="min-width:146px; min-height:40px; border-radius: 4px;border-style: none;background-color: #F59E0C;" alt="Pay with BtcPay, Self-Hosted Bitcoin Payment Processor"><span style="color:#fff"><p style="font-size:16px">Buy now $2 ea.</p></span>
 </button></form>
 
 ## <u>$35 - SAFU Self-Custody Kit</u>
@@ -45,7 +45,7 @@ subtitle: Purchase a word-list, starter kit, or WY SF today.
   <input type="hidden" name="notifyEmail" value="heir@xbt.llc" />
   <input type="hidden" name="price" value="35" />
   <input type="hidden" name="currency" value="USD" />
-<button type="submit" class="submit" name="submit" style="min-width:146px; min-height:40px; border-radius: 4px;border-style: none;background-color: #F59E0C;" alt="Pay with BtcPay, Self-Hosted Bitcoin Payment Processor"><span style="color:#fff">Buy now $35</span>
+<button type="submit" class="submit" name="submit" style="min-width:146px; min-height:40px; border-radius: 4px;border-style: none;background-color: #F59E0C;" alt="Pay with BtcPay, Self-Hosted Bitcoin Payment Processor"><span style="color:#fff"><p style="font-size:16px">Buy now $35</p></span>
 </form>
 
 
@@ -61,7 +61,7 @@ subtitle: Purchase a word-list, starter kit, or WY SF today.
   <input type="hidden" name="notifyEmail" value="safu2@xbt.llc" />
   <input type="hidden" name="price" value="5" />
   <input type="hidden" name="currency" value="USD" />
-<button type="submit" class="submit" name="submit" style="min-width:146px; min-height:40px; border-radius: 4px;border-style: none;background-color: #F59E0C;" alt="Pay with BtcPay, Self-Hosted Bitcoin Payment Processor"><span style="color:#fff">Buy Now $5 ea.</span>
+<button type="submit" class="submit" name="submit" style="min-width:146px; min-height:40px; border-radius: 4px;border-style: none;background-color: #F59E0C;" alt="Pay with BtcPay, Self-Hosted Bitcoin Payment Processor"><span style="color:#fff"><p style="font-size:16px">Buy Now $5 ea.</p></span>
 </button></form>
 
 ## <u>$399 - WY Statutory Foundation</u>
@@ -74,7 +74,7 @@ subtitle: Purchase a word-list, starter kit, or WY SF today.
   <input type="hidden" name="notifyEmail" value="heir@xbt.llc" />
   <input type="hidden" name="price" value="399" />
   <input type="hidden" name="currency" value="USD" />
-<button type="submit" class="submit" name="submit" style="min-width:146px; min-height:40px; border-radius: 4px;border-style: none;background-color: #F59E0C;" alt="Pay with BtcPay, Self-Hosted Bitcoin Payments"><span style="color:#fff">Buy now $399</span>
+<button type="submit" class="submit" name="submit" style="min-width:146px; min-height:40px; border-radius: 4px;border-style: none;background-color: #F59E0C;" alt="Pay with BtcPay, Self-Hosted Bitcoin Payments"><span style="color:#fff"><p style="font-size:16px">Buy now $399</p></span>
 </form>
 
 
@@ -96,5 +96,5 @@ subtitle: Purchase a word-list, starter kit, or WY SF today.
       <option value="USD" selected>USD</option>
     </select>
   </div>
-<button type="submit" class="submit" name="submit" style="min-width:146px; min-height:40px; border-radius: 4px;border-style: none;background-color: #F59E0C;" alt="Pay with BtcPay, Self-Hosted Bitcoin Payment Processor"><span style="color:#fff">Custom Amount</span>
+<button type="submit" class="submit" name="submit" style="min-width:146px; min-height:40px; border-radius: 4px;border-style: none;background-color: #F59E0C;" alt="Pay with BtcPay, Self-Hosted Bitcoin Payment Processor"><span style="color:#fff"><p style="font-size:16px">Custom Amount</p></span>
 </button></form>
