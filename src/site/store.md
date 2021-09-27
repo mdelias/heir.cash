@@ -24,7 +24,7 @@ subtitle: Purchase a word-list, starter kit, or WY SF today.
     </select>
     <input class="btcpay-input-range" id="btcpay-input-range" value="2" type="range" min="2" max="20" step="2" style="width:146px;margin-bottom:15px;" oninput="document.querySelector('#btcpay-input-price').value = document.querySelector('#btcpay-input-range').value" />
   </div>
-<button type="submit" class="submit" name="submit" style="min-width:146px; min-height:40px; border-radius: 4px;border-style: none;background-color: #F59E0C;" alt="Pay with BtcPay, Self-Hosted Bitcoin Payment Processor"><span style="color:#fff">But now $2 ea.</span>
+<button type="submit" class="submit" name="submit" style="min-width:146px; min-height:40px; border-radius: 4px;border-style: none;background-color: #F59E0C;" alt="Pay with BtcPay, Self-Hosted Bitcoin Payment Processor"><span style="color:#fff">Buy now $2 ea.</span>
 </button></form>
 
 ## <u>$35 - SAFU Self-Custody Kit</u>
@@ -45,7 +45,7 @@ subtitle: Purchase a word-list, starter kit, or WY SF today.
   <input type="hidden" name="notifyEmail" value="heir@xbt.llc" />
   <input type="hidden" name="price" value="35" />
   <input type="hidden" name="currency" value="USD" />
-<button type="submit" class="submit" name="submit" style="min-width:146px; min-height:40px; border-radius: 4px;border-style: none;background-color: #F59E0C;" alt="Pay with BtcPay, Self-Hosted Bitcoin Payment Processor"><span style="color:#fff">But now $35</span>
+<button type="submit" class="submit" name="submit" style="min-width:146px; min-height:40px; border-radius: 4px;border-style: none;background-color: #F59E0C;" alt="Pay with BtcPay, Self-Hosted Bitcoin Payment Processor"><span style="color:#fff">Buy now $35</span>
 </form>
 
 
@@ -61,10 +61,11 @@ subtitle: Purchase a word-list, starter kit, or WY SF today.
   <input type="hidden" name="storeId" value="2bXg8ZDU4CNJEpKjNyXy7ztShh2gjs6tN1DWn9KjGpLr" />
   <input type="hidden" name="notifyEmail" value="safu@xbt.llc" />
   <div class="btcpay-custom-container">
+<input id="btcpay-input-price" name="price" type="text" min="0" max="none" step="any" value="null" style="width: 146px;" oninput="event.preventDefault();isNaN(event.target.value)? document.querySelector('#btcpay-input-price').value = null : event.target.value; if (this.value < undefined) {this.value = undefined; } else if(this.value > undefined){  this.value = undefined;}" onchange= "var el=document.querySelector('#btcpay-input-price'); var price = parseInt(el.value);  if(price< 5) { el.value = 5} else if(price> 100) { el.value = 100} document.querySelector('#btcpay-input-range').value = el.value" />
     <select name="currency">
       <option value="USD" selected>USD</option>
     </select>
-    <input class="btcpay-input-range" id="btcpay-input-range" value="5" type="range" min="5" max="100" step="5" style="width:146px;margin-bottom:15px;" oninput="document.querySelector('#btcpay-input-price').value = document.querySelector('#btcpay-input-range').value" />
+    <input class="btcpay-input-range" id="btcpay-input-range" value="5" type="range" min="5" max="50" step="5" style="width:146px;margin-bottom:15px;" oninput="document.querySelector('#btcpay-input-price').value = document.querySelector('#btcpay-input-range').value" />
   </div>
 <button type="submit" class="submit" name="submit" style="min-width:146px; min-height:40px; border-radius: 4px;border-style: none;background-color: #F59E0C;" alt="Pay with BtcPay, Self-Hosted Bitcoin Payment Processor"><span style="color:#fff">Buy now $5 ea.</span>
 </button></form>
