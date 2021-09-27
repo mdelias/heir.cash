@@ -4,7 +4,7 @@ layout: layouts/base.njk
 subtitle: Purchase a word-list, starter kit, or WY SF today.
 ---
 
-## <u>Physical BIP-39 Word-List</u>
+## <u> $2 - Physical BIP-39 Word-List</u>
 
 + GPG Signed BIP-39 wordlist
 
@@ -27,7 +27,7 @@ subtitle: Purchase a word-list, starter kit, or WY SF today.
 <button type="submit" class="submit" name="submit" style="min-width:146px; min-height:40px; border-radius: 4px;border-style: none;background-color: #F59E0C;" alt="Pay with BtcPay, Self-Hosted Bitcoin Payment Processor"><span style="color:#fff">But now $2 ea.</span>
 </button></form>
 
-## SAFU Self-Custody Kit
+## <u>$35 - SAFU Self-Custody Kit</u>
 
 + Signed BIP-39 wordlist
 
@@ -49,7 +49,7 @@ subtitle: Purchase a word-list, starter kit, or WY SF today.
 </form>
 
 
-## Add-on Safu
+## <u>$5 - Add-on Safu</u>
 
 + 1pc. 18-8 stainless steel 1/4"-20 x 2", and cap nut
 
@@ -61,7 +61,6 @@ subtitle: Purchase a word-list, starter kit, or WY SF today.
   <input type="hidden" name="storeId" value="2bXg8ZDU4CNJEpKjNyXy7ztShh2gjs6tN1DWn9KjGpLr" />
   <input type="hidden" name="notifyEmail" value="safu@xbt.llc" />
   <div class="btcpay-custom-container">
-    <input id="btcpay-input-price" name="price" type="text" min="0" max="none" step="any" value="null" style="width: 146px;" oninput="event.preventDefault();isNaN(event.target.value)? document.querySelector('#btcpay-input-price').value = null : event.target.value; if (this.value < undefined) {this.value = undefined; } else if(this.value > undefined){  this.value = undefined;}" onchange= "var el=document.querySelector('#btcpay-input-price'); var price = parseInt(el.value);  if(price< 5) { el.value = 5} else if(price> 100) { el.value = 100} document.querySelector('#btcpay-input-range').value = el.value" />
     <select name="currency">
       <option value="USD" selected>USD</option>
     </select>
@@ -70,7 +69,7 @@ subtitle: Purchase a word-list, starter kit, or WY SF today.
 <button type="submit" class="submit" name="submit" style="min-width:146px; min-height:40px; border-radius: 4px;border-style: none;background-color: #F59E0C;" alt="Pay with BtcPay, Self-Hosted Bitcoin Payment Processor"><span style="color:#fff">Buy now $5 ea.</span>
 </button></form>
 
-## WY Statutory Foundation
+## <u>$399 - WY Statutory Foundation</u>
 
 + The Wyoming Statutory Foundation, combines elements of well- established trust and corporate law in Wyoming with classical elements of foundation legislation found in civil law jurisdictions, while also providing access to Wyoming’s privacy and asset preservation laws.
 <br>
