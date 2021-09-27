@@ -90,7 +90,7 @@ subtitle: Purchase a word-list, starter kit, or WY SF today.
   <input type="hidden" name="jsonResponse" value="true" />
   <div class="btcpay-custom-container">
     <div class="btcpay-custom">
-      <input id="btcpay-input-price" name="price" type="number" min="2" max="1000" step="1" value="2" style="width: 4em;" oninput="event.preventDefault();isNaN(event.target.value)? document.querySelector('#btcpay-input-price').value = 2 : event.target.value; if (this.value < 2) {this.value = 2; } else if(this.value > 1000){  this.value = 1000;}"  />
+      <input id="btcpay-input-price" name="price" type="number" min="1" max="2100" step="1" value="1" style="width: 5em;" oninput="event.preventDefault();isNaN(event.target.value)? document.querySelector('#btcpay-input-price').value = 2 : event.target.value; if (this.value < 2) {this.value = 2; } else if(this.value > 1000){  this.value = 1000;}"  />
     </div>
     <select name="currency">
       <option value="USD" selected>USD</option>
