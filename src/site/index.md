@@ -9,13 +9,13 @@ layout: layouts/base.njk
 
 We recommend familiarity w/ the following best practices and best in class security tools:
 
-+ Smart Custody
++ 🧠 Smart Custody https://github.com/BlockchainCommons/SmartCustodyBook
 
-+ Seed XOR
++ ⊻ Seed XOR https://seedxor.com/
 
-+ SAFU
++ 🔩 SAFU https://jlopp.github.io/metal-bitcoin-storage-reviews/reviews/safu-ninja/
 
-
++ ✅ WalletsRecovery https://walletsrecovery.org/
 
 
 
