@@ -4,7 +4,7 @@ layout: layouts/base.njk
 subtitle: Purchase a word-list, starter kit, or WY SF today.
 ---
 
-## Physical BIP-39 Word-List
+## <u>Physical BIP-39 Word-List</u>
 
 + GPG Signed BIP-39 wordlist
 
