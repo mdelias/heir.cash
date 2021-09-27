@@ -91,7 +91,7 @@ subtitle: Purchase a word-list, starter kit, or WY SF today.
   <div class="btcpay-custom-container">
     <div class="btcpay-custom">
       <button class="plus-minus" onclick="event.preventDefault(); var el=document.querySelector('#btcpay-input-price'); var price = parseInt(el.value); if((price - 1 )< 2) { el.value = 2} else {el.value = parseInt(el.value) - 1 }">-</button>
-      <input id="btcpay-input-price" name="price" type="number" min="2" max="1000" step="1" value="2" style="width: 2em;" oninput="event.preventDefault();isNaN(event.target.value)? document.querySelector('#btcpay-input-price').value = 2 : event.target.value; if (this.value < 2) {this.value = 2; } else if(this.value > 1000){  this.value = 1000;}"  />
+      <input id="btcpay-input-price" name="price" type="number" min="2" max="1000" step="1" value="2" style="width: 4em;" oninput="event.preventDefault();isNaN(event.target.value)? document.querySelector('#btcpay-input-price').value = 2 : event.target.value; if (this.value < 2) {this.value = 2; } else if(this.value > 1000){  this.value = 1000;}"  />
       <button class="plus-minus" onclick="event.preventDefault(); var el=document.querySelector('#btcpay-input-price'); var price = parseInt(el.value); if((price + 1 )> 1000) { el.value = 1000} else {el.value = parseInt(el.value) + 1 }">+</button>
     </div>
     <select name="currency">
