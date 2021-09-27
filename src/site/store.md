@@ -91,13 +91,11 @@ subtitle: Purchase a word-list, starter kit, or WY SF today.
   <div class="btcpay-custom-container">
     <div class="btcpay-custom">
       <button class="plus-minus" onclick="event.preventDefault(); var el=document.querySelector('#btcpay-input-price'); var price = parseInt(el.value); if((price - 1 )< 2) { el.value = 2} else {el.value = parseInt(el.value) - 1 }">-</button>
+      <input id="btcpay-input-price" name="price" type="number" min="2" max="1000" step="1" value="2" style="width: 2em;" oninput="event.preventDefault();isNaN(event.target.value)? document.querySelector('#btcpay-input-price').value = 2 : event.target.value; if (this.value < 2) {this.value = 2; } else if(this.value > 1000){  this.value = 1000;}"  />
       <button class="plus-minus" onclick="event.preventDefault(); var el=document.querySelector('#btcpay-input-price'); var price = parseInt(el.value); if((price + 1 )> 1000) { el.value = 1000} else {el.value = parseInt(el.value) + 1 }">+</button>
     </div>
     <select name="currency">
       <option value="USD" selected>USD</option>
-      <option value="GBP">GBP</option>
-      <option value="EUR">EUR</option>
-      <option value="BTC">BTC</option>
     </select>
   </div>
 <button type="submit" class="submit" name="submit" style="min-width:146px; min-height:40px; border-radius: 4px;border-style: none;background-color: #F59E0C;" alt="Pay with BtcPay, Self-Hosted Bitcoin Payment Processor"><span style="color:#fff">Custom Amount</span>
