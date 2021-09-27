@@ -59,6 +59,7 @@ subtitle: Purchase a word-list, starter kit, or WY SF today.
 <form method="POST"  action="https://btcpay.wyo.llc/api/v1/invoices" class="btcpay-form btcpay-form--block">
   <input type="hidden" name="storeId" value="2bXg8ZDU4CNJEpKjNyXy7ztShh2gjs6tN1DWn9KjGpLr" />
   <input type="hidden" name="notifyEmail" value="safu2@xbt.llc" />
+  <input type="hidden" name="price" value="5" />
   <input type="hidden" name="currency" value="USD" />
 <button type="submit" class="submit" name="submit" style="min-width:146px; min-height:40px; border-radius: 4px;border-style: none;background-color: #F59E0C;" alt="Pay with BtcPay, Self-Hosted Bitcoin Payment Processor"><span style="color:#fff">Buy Now $5 ea.</span>
 </button></form>
