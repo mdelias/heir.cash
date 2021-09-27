@@ -17,5 +17,5 @@ We recommend familiarity w/ the following best practices and best in class secur
 
 + [✅ WalletsRecovery](https://walletsrecovery.org/)
 
-
++ [📖 10x Security Bitcoin Guide](https://btcguide.github.io/)
 
