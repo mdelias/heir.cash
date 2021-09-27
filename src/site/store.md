@@ -24,7 +24,7 @@ subtitle: Purchase a word-list, starter kit, or WY SF today.
     </select>
     <input class="btcpay-input-range" id="btcpay-input-range" value="2" type="range" min="2" max="20" step="2" style="width:146px;margin-bottom:15px;" oninput="document.querySelector('#btcpay-input-price').value = document.querySelector('#btcpay-input-range').value" />
   </div>
-<button type="submit" class="submit" name="submit" style="min-width:146px; min-height:40px; border-radius: 4px;border-style: none;background-color: #F59E0C;" alt="Pay with BtcPay, Self-Hosted Bitcoin Payment Processor"><span style="font-size: 14pt" "color:#fff">Buy now $2 ea.</span>
+<button type="submit" class="submit" name="submit" style="min-width:146px; min-height:40px; border-radius: 4px;border-style: none;background-color: #F59E0C;" alt="Pay with BtcPay, Self-Hosted Bitcoin Payment Processor"><span style="color:#fff"><p style="font-size:14px">Buy now $2 ea.</p></span>
 </button></form>
 
 ## <u>$35 - SAFU Self-Custody Kit</u>
