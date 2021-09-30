@@ -26,7 +26,7 @@ subtitle: Purchase a word-list, starter kit, or WY SF today.
   </div>
 <button type="submit" class="submit" name="submit" style="min-width:146px; min-height:40px; border-radius: 4px;border-style: none;background-color: #F59E0C;" alt="Pay with BtcPay, Self-Hosted Bitcoin Payment Processor"><span style="color:#fff"><p style="font-size:16px">Buy now $2 ea.</p></span>
 </button></form>
-<br><button type="submit" name="stripe" style="min-width:146px; min-height:40px; border-radius: 4px;border-style: none;background-color: #F59E0C;" alt="Pay with BtcPay, Self-Hosted Bitcoin Payment Processor"><span style="color:#fff"><p style="font-size:16px"><a href="https://buy.stripe.com/dR69EwafY727c5aeUV">Buy with Stripe</a></p></span>
+<br><br><button type="submit" name="stripe" style="min-width:146px; min-height:40px; border-radius: 4px;border-style: none;background-color: #F59E0C;" alt="Pay with BtcPay, Self-Hosted Bitcoin Payment Processor"><span style="color:#fff"><p style="font-size:16px"><a href="https://buy.stripe.com/dR69EwafY727c5aeUV">Buy with Stripe</a></p></span>
 </button>
 
 
