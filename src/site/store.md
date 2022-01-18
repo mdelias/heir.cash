@@ -12,6 +12,8 @@ subtitle: Purchase a word-list, starter kit, or WY SF today.
 
 + Cut-out and pull 24+ words from hat
 <br>
+Pay below with an LNURL enabled wallet
+<br>
 ![Words](/images/WLLNURL.png)
 
 
