@@ -4,7 +4,8 @@ layout: layouts/base.njk
 subtitle: Purchase a word-list, starter kit, or WY SF today.
 ---
 
-## <u> $2 - Physical BIP-39 Word-List</u>
+# **$2 - Physical BIP-39 Word-List**
+<br>
 <center>
 GPG Signed BIP-39 wordlist
 
@@ -16,7 +17,6 @@ Pay below with an LNURL enabled wallet
 <br>
 ![Words](/images/WLLNURL.png)
 <br>
-<b>LNURL</b>
 ```
 LNURL1DP68GUP69UHKCM3WDENHYMMT9E5K7TMVDE6HYMRS9ASHQ6F0WCCJ7MRWW4EXCTE3AAPEX4
 ```
