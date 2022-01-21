@@ -15,11 +15,16 @@ subtitle: Purchase a word-list, starter kit, or WY SF today.
 Pay below with an LNURL enabled wallet
 <br>
 ![Words](/images/WLLNURL.png)
-<textarea>LNURL1DP68GUP69UHKCM3WDENHYMMT9E5K7TMVDE6HYMRS9ASHQ6F0WCCJ7MRWW4EXCTE3AAPEX4</textarea>
+<br>
+__LNURL__
+<br>
+```
+LNURL1DP68GUP69UHKCM3WDENHYMMT9E5K7TMVDE6HYMRS9ASHQ6F0WCCJ7MRWW4EXCTE3AAPEX4
+```
 
 <br><br>
 
-<button type="submit" name="stripe" style="min-width:146px; min-height:40px; border-radius: 4px;border-style: none;background-color: #F59E0C;" alt="Pay with BtcPay, Self-Hosted Bitcoin Payment Processor"><span style="color:#fff"><p style="font-size:16px"><a href="https://buy.stripe.com/dR69EwafY727c5aeUV">Buy with Stripe</a></p></span>
+<button type="submit" name="stripe" style="min-width:146px; min-height:40px; border-radius: 4px;border-style: none;background-color: #F59E0C;" alt="Buy with Stripe"><span style="color:#fff"><p style="font-size:16px"><a href="https://buy.stripe.com/dR69EwafY727c5aeUV">Buy with Stripe</a></p></span>
 </button>
 
 
