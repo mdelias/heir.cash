@@ -8,9 +8,7 @@ subtitle: Purchase a word-list, starter kit, or WY SF today.
 <br>
 <center>
 GPG Signed BIP-39 wordlist
-
 5 pgs laminated card stock
-
 Cut-out and pull 24+ words from hat
 <br><br>
 Pay below with an LNURL enabled wallet
