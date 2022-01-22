@@ -5,7 +5,7 @@ layout: layouts/base.njk
 ---
 
 
-## This site is a starting point for self-sovereign custody
+## heir.cash 💸 is your home for self-sovereign custody 
 
 We recommend familiarity w/ the following best practices and best in class security tools:
 
