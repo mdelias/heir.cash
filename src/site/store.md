@@ -4,6 +4,15 @@ layout: layouts/base.njk
 subtitle: Purchase a word-list, starter kit, or WY SF today.
 ---
 
+<script>
+function copyToClipboard(element) {
+  var $temp = $("<input>");
+  $("body").append($temp);
+  $temp.val($(element).text()).select();
+  document.execCommand("copy");
+  $temp.remove();
+}
+</script>
 ## <a id="list"></a>**$3 - Physical BIP-39 Word-List**
 <br>
 <center>
@@ -17,11 +26,11 @@ Pay below with an LNURL enabled wallet
 <br>
 ![Words](/images/WLLNURL.png)
 <br>
-<button type="submit" name="copy" style="min-width:146px; min-height:40px; border-radius: 4px;border-style: none;background-color: #2795DA;" alt="Buy with Stripe"><span style="color:#fff"><p style="font-size:16px"><a href="#list" onclick="CopyToClipboard('LNURL1DP68GURN8GHJ77RZWSH8X6P0D3H82UNVWQHKZURF9AMRZTMVDE6HYMP08YZ2HU2U');return false;">Copy LNURL</a></p></span>
+<button type="submit" onclick"copyToClipboard('#p1')" name="copy" style="min-width:146px; min-height:40px; border-radius: 4px;border-style: none;background-color: #2795DA;" alt="Buy with Stripe"><span style="color:#fff"><p style="font-size:16px"><a href="#list">Copy LNURL</a></p></span>
 </button>
-```
+<textarea id="p1">
 LNURL1DP68GURN8GHJ77RZWSH8X6P0D3H82UNVWQHKZURF9AMRZTMVDE6HYMP08YZ2HU2U
-```
+</textarea>
 <button type="submit" name="stripe" style="min-width:146px; min-height:40px; border-radius: 4px;border-style: none;background-color: #2795DA;" alt="Buy with Stripe"><span style="color:#fff"><p style="font-size:16px"><a href="https://buy.stripe.com/dR69EwafY727c5aeUV">Buy w/ Stripe</a></p></span>
 </button>
 </center>
