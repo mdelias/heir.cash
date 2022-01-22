@@ -4,7 +4,7 @@ layout: layouts/base.njk
 subtitle: Purchase a word-list, starter kit, or WY SF today.
 ---
 
-## **$3 - Physical BIP-39 Word-List**
+## <a id="list"></a>**$3 - Physical BIP-39 Word-List**
 <br>
 <center>
 GPG Signed BIP-39 wordlist
@@ -17,7 +17,7 @@ Pay below with an LNURL enabled wallet
 <br>
 ![Words](/images/WLLNURL.png)
 <br>
-<button type="submit" name="copy" style="min-width:146px; min-height:40px; border-radius: 4px;border-style: none;background-color: #2795DA;" alt="Buy with Stripe"><span style="color:#fff"><p style="font-size:16px"><a href="##" onclick="CopyToClipboard('LNURL1DP68GURN8GHJ77RZWSH8X6P0D3H82UNVWQHKZURF9AMRZTMVDE6HYMP08YZ2HU2U');return false;">Copy LNURL</a></p></span>
+<button type="submit" name="copy" style="min-width:146px; min-height:40px; border-radius: 4px;border-style: none;background-color: #2795DA;" alt="Buy with Stripe"><span style="color:#fff"><p style="font-size:16px"><a href="#list" onclick="CopyToClipboard('LNURL1DP68GURN8GHJ77RZWSH8X6P0D3H82UNVWQHKZURF9AMRZTMVDE6HYMP08YZ2HU2U');return false;">Copy LNURL</a></p></span>
 </button>
 ```
 LNURL1DP68GURN8GHJ77RZWSH8X6P0D3H82UNVWQHKZURF9AMRZTMVDE6HYMP08YZ2HU2U
@@ -49,7 +49,7 @@ LNURL1DP68GURN8GHJ77RZWSH8X6P0D3H82UNVWQHKZURF9AMRZTMVDE6HYMP08YZ2HU2U
 <br><br><button type="submit" name="stripe" style="min-width:146px; min-height:40px; border-radius: 4px;border-style: none;background-color: #F59E0C;" alt="Pay with BtcPay, Self-Hosted Bitcoin Payment Processor"><span style="color:#fff"><p style="font-size:16px"><a href="https://buy.stripe.com/cN203WafYbinfhmeUW">Buy with Stripe</a></p></span>
 </button>
 
-## <u>$5 - Add-on Safu</u>
+## $5 - Add-on Safu
 
 + 1pc. 18-8 stainless steel 1/4"-20 x 2", and cap nut
 
