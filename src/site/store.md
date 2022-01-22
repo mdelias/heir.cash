@@ -17,10 +17,10 @@ Pay below with an LNURL enabled wallet
 <br>
 ![Words](/images/WLLNURL.png)
 <br>
-<button type="submit" name="copy" style="min-width:146px; min-height:40px; border-radius: 4px;border-style: none;background-color: #2795DA;" alt="Buy with Stripe"><span style="color:#fff"><p style="font-size:16px"><a href="" onclick="CopyToClipboard('sample');return false;">Copy LNURL</a></p></span>
+<button type="submit" name="copy" style="min-width:146px; min-height:40px; border-radius: 4px;border-style: none;background-color: #2795DA;" alt="Buy with Stripe"><span style="color:#fff"><p style="font-size:16px"><a href="javascript:;" onclick="CopyToClipboard('LNURL1DP68GURN8GHJ77RZWSH8X6P0D3H82UNVWQHKZURF9AMRZTMVDE6HYMP08YZ2HU2U');return false;">Copy LNURL</a></p></span>
 </button>
 ```
-<p id="sample">LNURL1DP68GURN8GHJ77RZWSH8X6P0D3H82UNVWQHKZURF9AMRZTMVDE6HYMP08YZ2HU2U</p>
+LNURL1DP68GURN8GHJ77RZWSH8X6P0D3H82UNVWQHKZURF9AMRZTMVDE6HYMP08YZ2HU2U
 ```
 <button type="submit" name="stripe" style="min-width:146px; min-height:40px; border-radius: 4px;border-style: none;background-color: #2795DA;" alt="Buy with Stripe"><span style="color:#fff"><p style="font-size:16px"><a href="https://buy.stripe.com/dR69EwafY727c5aeUV">Buy w/ Stripe</a></p></span>
 </button>
@@ -104,14 +104,4 @@ Pay below with an LNURL enabled wallet
 <br><br><button type="submit" name="stripe" style="min-width:146px; min-height:40px; border-radius: 4px;border-style: none;background-color: #F59E0C;" alt="Pay with BtcPay, Self-Hosted Bitcoin Payment Processor"><span style="color:#fff"><p style="font-size:16px"><a href="https://buy.stripe.com/28odUM5ZI2LRfhmbII">Buy with Stripe</a></p></span>
 </button>
 
-<script>
-function CopyToClipboard(id)
-{
-var r = document.createRange();
-r.selectNode(document.getElementById(id));
-window.getSelection().removeAllRanges();
-window.getSelection().addRange(r);
-document.execCommand('copy');
-window.getSelection().removeAllRanges();
-}
-</script>
+
