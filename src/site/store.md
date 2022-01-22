@@ -4,7 +4,7 @@ layout: layouts/base.njk
 subtitle: Purchase a word-list, starter kit, or WY SF today.
 ---
 
-## **$2 - Physical BIP-39 Word-List**
+## **$3 - Physical BIP-39 Word-List**
 <br>
 <center>
 GPG Signed BIP-39 wordlist
@@ -17,8 +17,10 @@ Pay below with an LNURL enabled wallet
 <br>
 ![Words](/images/WLLNURL.png)
 <br>
+<button type="submit" name="copy" style="min-width:146px; min-height:40px; border-radius: 4px;border-style: none;background-color: #2795DA;" alt="Buy with Stripe"><span style="color:#fff"><p style="font-size:16px"><a href="#" onclick="CopyToClipboard('sample');return false;">Copy LNURL</a></p></span>
+</button>
 ```
-LNURL1DP68GUP69UHKCM3WDENHYMMT9E5K7TMVDE6HYMRS9ASHQ6F0WCCJ7MRWW4EXCTE3AAPEX4
+<p id="sample">LNURL1DP68GURN8GHJ77RZWSH8X6P0D3H82UNVWQHKZURF9AMRZTMVDE6HYMP08YZ2HU2U</p>
 ```
 <button type="submit" name="stripe" style="min-width:146px; min-height:40px; border-radius: 4px;border-style: none;background-color: #2795DA;" alt="Buy with Stripe"><span style="color:#fff"><p style="font-size:16px"><a href="https://buy.stripe.com/dR69EwafY727c5aeUV">Buy w/ Stripe</a></p></span>
 </button>
