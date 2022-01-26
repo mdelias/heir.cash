@@ -7,6 +7,10 @@ layout: layouts/base.njk
 
 ## heir.cash 💸 is your home for self-sovereign custody 
 
+## 🔥 Visit our [Store] today.
+
+## 🚨[seizeth.is](https://seizeth.is) Politician Hodlers now receive 10% off all store purchases!🚨
+
 We recommend familiarity w/ the following best practices and best in class security tools:
 
 + [🧠 Smart Custody](https://github.com/BlockchainCommons/SmartCustodyBook)
