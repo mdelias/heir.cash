@@ -4,16 +4,7 @@ layout: layouts/base.njk
 subtitle: Purchase a word-list, starter kit, or WY SF today.
 ---
 
-<script>
-function copyToClipboard(element) {
-  var $temp = $("<input>");
-  $("body").append($temp);
-  $temp.val($(element).text()).select();
-  document.execCommand("copy");
-  $temp.remove();
-}
-</script>
-## <a id="list"></a>**$3 - Physical BIP-39 Word-List**
+## <a id="list"></a>**   Physical BIP-39 Word-List - 3 USD**
 <br>
 <center>
 GPG Signed BIP-39 wordlist
@@ -24,93 +15,91 @@ Cut-out and pull 24+ words from hat
 <br><br>
 Pay below with an LNURL enabled wallet
 <br>
-![Words](/images/WLLNURL.png)
+![Words](/images/1.png)
 <br>
-<button onclick="copyToClipboard('p1')" name="copy" style="min-width:146px; min-height:40px; border-radius: 4px;border-style: none;background-color: #2795DA;" alt="Copy"><span style="color:#fff"><p style="font-size:16px"><a href="#list">Copy LNURL</a></p></span>
-</button>
 <textarea id="p1" rows="2" cols="40">
-LNURL1DP68GURN8GHJ77RZWSH8X6P0D3H82UNVWQHKZURF9AMRZTMVDE6HYMP08YZ2HU2U
+LNURL1DP68GURN8GHJ77RZWSH8X6P0D3H82UNVWQHKZURF9AMRZTMVDE6HYMP0XYCQSEZYWJ
 </textarea>
+<br>
 <button type="submit" name="stripe" style="min-width:146px; min-height:40px; border-radius: 4px;border-style: none;background-color: #2795DA;" alt="Buy with Stripe"><span style="color:#fff"><p style="font-size:16px"><a href="https://buy.stripe.com/dR69EwafY727c5aeUV">Buy w/ Stripe</a></p></span>
 </button>
 </center>
 
-## <u>$35 - SAFU Self-Custody Kit</u>
-
-+ Signed BIP-39 wordlist
-
-+ 1pc. 18-8 stainless steel 1/4"-20 x 2", and cap nut
-
-+ 30pc. 18-8 stainless steel washers 
-
-+ 36pc. 1/8" steel alphanumeric stamping set
-
-+ 3d printed Blockmit washer jig
+## <a id="kit"></a>**   SAFU Self Custody Kit - 35 USD**
 <br>
-<style type="text/css"> .btcpay-form { display: inline-flex; align-items: center; justify-content: center; } .btcpay-form--inline { flex-direction: row; } .btcpay-form--block { flex-direction: column; } .btcpay-form--inline .submit { margin-left: 15px; } .btcpay-form--block select { margin-bottom: 10px; } .btcpay-form .btcpay-custom-container{ text-align: center; }.btcpay-custom { display: flex; align-items: center; justify-content: center; } .btcpay-form .plus-minus { cursor:pointer; font-size:25px; line-height: 25px; background: #DFE0E1; height: 30px; width: 45px; border:none; border-radius: 60px; margin: auto 5px; display: inline-flex; justify-content: center; } .btcpay-form select { -moz-appearance: none; -webkit-appearance: none; appearance: none; color: currentColor; background: transparent; border:1px solid transparent; display: block; padding: 1px; margin-left: auto; margin-right: auto; font-size: 11px; cursor: pointer; } .btcpay-form select:hover { border-color: #ccc; } #btcpay-input-price { -moz-appearance: none; -webkit-appearance: none; border: none; box-shadow: none; text-align: center; font-size: 25px; margin: auto; border-radius: 5px; line-height: 35px; background: #fff; } #btcpay-input-price::-webkit-outer-spin-button, #btcpay-input-price::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; } </style>
-<form method="POST"  action="https://btcpay.wyo.llc/api/v1/invoices" class="btcpay-form btcpay-form--block">
-  <input type="hidden" name="storeId" value="2bXg8ZDU4CNJEpKjNyXy7ztShh2gjs6tN1DWn9KjGpLr" />
-  <input type="hidden" name="notifyEmail" value="heir@xbt.llc" />
-  <input type="hidden" name="price" value="35" />
-  <input type="hidden" name="currency" value="USD" />
-<button type="submit" class="submit" name="submit" style="min-width:146px; min-height:40px; border-radius: 4px;border-style: none;background-color: #F59E0C;" alt="Pay with BtcPay, Self-Hosted Bitcoin Payment Processor"><span style="color:#fff"><p style="font-size:16px">Buy now $35</p></span>
-</form>
-<br><br><button type="submit" name="stripe" style="min-width:146px; min-height:40px; border-radius: 4px;border-style: none;background-color: #F59E0C;" alt="Pay with BtcPay, Self-Hosted Bitcoin Payment Processor"><span style="color:#fff"><p style="font-size:16px"><a href="https://buy.stripe.com/cN203WafYbinfhmeUW">Buy with Stripe</a></p></span>
-</button>
+<center>
+Signed BIP-39 wordlist
 
-## $5 - Add-on Safu
+1pc. 18-8 stainless steel 1/4"-20 x 2", and cap nut
 
-+ 1pc. 18-8 stainless steel 1/4"-20 x 2", and cap nut
+30pc. 18-8 stainless steel washers 
 
-+ 30pc. 18-8 stainless steel washers  
+36pc. 1/8" steel alphanumeric stamping set
+
+3d printed Blockmit washer jig
+<br><br>
+Pay below with an LNURL enabled wallet
 <br>
-<style type="text/css"> .btcpay-form { display: inline-flex; align-items: center; justify-content: center; } .btcpay-form--inline { flex-direction: row; } .btcpay-form--block { flex-direction: column; } .btcpay-form--inline .submit { margin-left: 15px; } .btcpay-form--block select { margin-bottom: 10px; } .btcpay-form .btcpay-custom-container{ text-align: center; }.btcpay-custom { display: flex; align-items: center; justify-content: center; } .btcpay-form .plus-minus { cursor:pointer; font-size:25px; line-height: 25px; background: #DFE0E1; height: 30px; width: 45px; border:none; border-radius: 60px; margin: auto 5px; display: inline-flex; justify-content: center; } .btcpay-form select { -moz-appearance: none; -webkit-appearance: none; appearance: none; color: currentColor; background: transparent; border:1px solid transparent; display: block; padding: 1px; margin-left: auto; margin-right: auto; font-size: 11px; cursor: pointer; } .btcpay-form select:hover { border-color: #ccc; } #btcpay-input-price { -moz-appearance: none; -webkit-appearance: none; border: none; box-shadow: none; text-align: center; font-size: 25px; margin: auto; border-radius: 5px; line-height: 35px; background: #fff; } #btcpay-input-price::-webkit-outer-spin-button, #btcpay-input-price::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; } </style>
-<form method="POST"  action="https://btcpay.wyo.llc/api/v1/invoices" class="btcpay-form btcpay-form--block">
-  <input type="hidden" name="storeId" value="2bXg8ZDU4CNJEpKjNyXy7ztShh2gjs6tN1DWn9KjGpLr" />
-  <input type="hidden" name="notifyEmail" value="safu2@xbt.llc" />
-  <input type="hidden" name="price" value="5" />
-  <input type="hidden" name="currency" value="USD" />
-<button type="submit" class="submit" name="submit" style="min-width:146px; min-height:40px; border-radius: 4px;border-style: none;background-color: #F59E0C;" alt="Pay with BtcPay, Self-Hosted Bitcoin Payment Processor"><span style="color:#fff"><p style="font-size:16px">Buy Now $5 ea.</p></span>
-</button></form>
-<br><br><button type="submit" name="stripe" style="min-width:146px; min-height:40px; border-radius: 4px;border-style: none;background-color: #F59E0C;" alt="Pay with BtcPay, Self-Hosted Bitcoin Payment Processor"><span style="color:#fff"><p style="font-size:16px"><a href="https://buy.stripe.com/28o9Ew2Nwcmr2uA6or">Buy with Stripe</a></p></span>
-</button>
-
-## <u>$399 - WY Statutory Foundation</u>
-
-+ The Wyoming Statutory Foundation, combines elements of well- established trust and corporate law in Wyoming with classical elements of foundation legislation found in civil law jurisdictions, while also providing access to Wyoming’s privacy and asset preservation laws.
+![Words](/images/2.png)
 <br>
-<style type="text/css"> .btcpay-form { display: inline-flex; align-items: center; justify-content: center; } .btcpay-form--inline { flex-direction: row; } .btcpay-form--block { flex-direction: column; } .btcpay-form--inline .submit { margin-left: 15px; } .btcpay-form--block select { margin-bottom: 10px; } .btcpay-form .btcpay-custom-container{ text-align: center; }.btcpay-custom { display: flex; align-items: center; justify-content: center; } .btcpay-form .plus-minus { cursor:pointer; font-size:25px; line-height: 25px; background: #DFE0E1; height: 30px; width: 45px; border:none; border-radius: 60px; margin: auto 5px; display: inline-flex; justify-content: center; } .btcpay-form select { -moz-appearance: none; -webkit-appearance: none; appearance: none; color: currentColor; background: transparent; border:1px solid transparent; display: block; padding: 1px; margin-left: auto; margin-right: auto; font-size: 11px; cursor: pointer; } .btcpay-form select:hover { border-color: #ccc; } #btcpay-input-price { -moz-appearance: none; -webkit-appearance: none; border: none; box-shadow: none; text-align: center; font-size: 25px; margin: auto; border-radius: 5px; line-height: 35px; background: #fff; } #btcpay-input-price::-webkit-outer-spin-button, #btcpay-input-price::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; } </style>
-<form method="POST"  action="https://btcpay.wyo.llc/api/v1/invoices" class="btcpay-form btcpay-form--block">
-  <input type="hidden" name="storeId" value="2bXg8ZDU4CNJEpKjNyXy7ztShh2gjs6tN1DWn9KjGpLr" />
-  <input type="hidden" name="notifyEmail" value="heir@xbt.llc" />
-  <input type="hidden" name="price" value="399" />
-  <input type="hidden" name="currency" value="USD" />
-<button type="submit" class="submit" name="submit" style="min-width:146px; min-height:40px; border-radius: 4px;border-style: none;background-color: #F59E0C;" alt="Pay with BtcPay, Self-Hosted Bitcoin Payments"><span style="color:#fff"><p style="font-size:16px">Buy now $399</p></span>
-</form>
-<br><br><button type="submit" name="stripe" style="min-width:146px; min-height:40px; border-radius: 4px;border-style: none;background-color: #F59E0C;" alt="Pay with BtcPay, Self-Hosted Bitcoin Payment Processor"><span style="color:#fff"><p style="font-size:16px"><a href="https://buy.stripe.com/9AQcQIfAifyDedi4gk">Buy with Stripe</a></p></span>
+<textarea id="p1" rows="2" cols="40">
+LNURL1DP68GURN8GHJ77RZWSH8X6P0D3H82UNVWQHKZURF9AMRZTMVDE6HYMP0XYEQLYD795
+</textarea>
+<br>
+<button type="submit" name="stripe" style="min-width:146px; min-height:40px; border-radius: 4px;border-style: none;background-color: #2795DA;" alt="Buy with Stripe"><span style="color:#fff"><p style="font-size:16px"><a href="https://buy.stripe.com/cN203WafYbinfhmeUW">Buy w/ Stripe</a></p></span>
 </button>
+</center>
 
-## <u>$X - Custom Order</u>
+## <a id="safu"></a>**   Add-on SAFU - 5 USD**
 
-+ Combination of the above items
+1pc. 18-8 stainless steel 1/4"-20 x 2", and cap nut
 
-+ Add together prices and pay invoice
-
-<script>if(!window.btcpay){    var head = document.getElementsByTagName('head')[0];   var script = document.createElement('script');   script.src='https://btcpay.wyo.llc/modal/btcpay.js';   script.type = 'text/javascript';   head.append(script);}function onBTCPayFormSubmit(event){    var xhttp = new XMLHttpRequest();    xhttp.onreadystatechange = function() {        if (this.readyState == 4 && this.status == 200) {            if(this.status == 200 && this.responseText){                var response = JSON.parse(this.responseText);                window.btcpay.showInvoice(response.invoiceId);            }        }    };    xhttp.open("POST", event.target.getAttribute('action'), true);    xhttp.send(new FormData( event.target ));}</script><style type="text/css"> .btcpay-form { display: inline-flex; align-items: center; justify-content: center; } .btcpay-form--inline { flex-direction: row; } .btcpay-form--block { flex-direction: column; } .btcpay-form--inline .submit { margin-left: 15px; } .btcpay-form--block select { margin-bottom: 10px; } .btcpay-form .btcpay-custom-container{ text-align: center; }.btcpay-custom { display: flex; align-items: center; justify-content: center; } .btcpay-form .plus-minus { cursor:pointer; font-size:25px; line-height: 25px; background: #DFE0E1; height: 30px; width: 45px; border:none; border-radius: 60px; margin: auto 5px; display: inline-flex; justify-content: center; } .btcpay-form select { -moz-appearance: none; -webkit-appearance: none; appearance: none; color: currentColor; background: transparent; border:1px solid transparent; display: block; padding: 1px; margin-left: auto; margin-right: auto; font-size: 11px; cursor: pointer; } .btcpay-form select:hover { border-color: #ccc; } #btcpay-input-price { -moz-appearance: none; -webkit-appearance: none; border: none; box-shadow: none; text-align: center; font-size: 25px; margin: auto; border-radius: 5px; line-height: 35px; background: #fff; } #btcpay-input-price::-webkit-outer-spin-button, #btcpay-input-price::-webkit-inner-spin-button { -webkit-appearance: none; margin: 0; } </style>
-<form method="POST"  onsubmit="onBTCPayFormSubmit(event);return false"  action="https://btcpay.wyo.llc/api/v1/invoices" class="btcpay-form btcpay-form--inline">
-  <input type="hidden" name="storeId" value="2bXg8ZDU4CNJEpKjNyXy7ztShh2gjs6tN1DWn9KjGpLr" />
-  <input type="hidden" name="jsonResponse" value="true" />
-  <div class="btcpay-custom-container">
-    <div class="btcpay-custom">
-      <input id="btcpay-input-price" name="price" type="number" min="1" max="2100" step="1" value="1" style="width: 5em;" oninput="event.preventDefault();isNaN(event.target.value)? document.querySelector('#btcpay-input-price').value = 2 : event.target.value; if (this.value < 2) {this.value = 2; } else if(this.value > 2100){  this.value = 2100;}"  />
-    </div>
-    <select name="currency">
-      <option value="USD" selected>USD</option>
-    </select>
-  </div>
-<button type="submit" class="submit" name="submit" style="min-width:146px; min-height:40px; border-radius: 4px;border-style: none;background-color: #F59E0C;" alt="Pay with BtcPay, Self-Hosted Bitcoin Payment Processor"><span style="color:#fff"><p style="font-size:16px">Custom Amount</p></span>
-</button></form>
-<br><br><button type="submit" name="stripe" style="min-width:146px; min-height:40px; border-radius: 4px;border-style: none;background-color: #F59E0C;" alt="Pay with BtcPay, Self-Hosted Bitcoin Payment Processor"><span style="color:#fff"><p style="font-size:16px"><a href="https://buy.stripe.com/28odUM5ZI2LRfhmbII">Buy with Stripe</a></p></span>
+30pc. 18-8 stainless steel washers  
+<br><br>
+Pay below with an LNURL enabled wallet
+<br>
+![Words](/images/3.png)
+<br>
+<textarea id="p1" rows="2" cols="40">
+LNURL1DP68GURN8GHJ77RZWSH8X6P0D3H82UNVWQHKZURF9AMRZTMVDE6HYMP0XYCS9C2UMP
+</textarea>
+<br>
+<button type="submit" name="stripe" style="min-width:146px; min-height:40px; border-radius: 4px;border-style: none;background-color: #2795DA;" alt="Buy with Stripe"><span style="color:#fff"><p style="font-size:16px"><a href="https://buy.stripe.com/28o9Ew2Nwcmr2uA6or">Buy w/ Stripe</a></p></span>
 </button>
+</center>
+
+## <a id="wysf"></a>**   WY Statutory Foundation - 399 USD**
+The Wyoming Statutory Foundation, combines elements of well- established trust and corporate law in Wyoming with classical elements of foundation legislation found in civil law jurisdictions, while also providing access to Wyoming’s privacy and asset preservation laws.
+<br><br>
+Pay below with an LNURL enabled wallet
+<br>
+![OnchainorStripeOnly](/images/99.png)
+<br>
+<textarea id="p1" rows="2" cols="40">
+XXXXX1DP68GURN8GHJ77RZWSH8X6P0D3H82UNVWQHKZURF9AMRZTMVDE6HYMP0XYCQSXXXXX
+</textarea>
+<br>
+<button type="submit" name="stripe" style="min-width:146px; min-height:40px; border-radius: 4px;border-style: none;background-color: #2795DA;" alt="Buy with Stripe"><span style="color:#fff"><p style="font-size:16px"><a href="https://buy.stripe.com/9AQcQIfAifyDedi4gk">Buy w/ Stripe</a></p></span>
+</button>
+</center>
+
+## <a id="cust"></a>**   Custom Order - X USD**
+
+Combination of the above items
+
+Add together prices and pay invoice
+<br><br>
+Pay below with an LNURL enabled wallet
+<br>
+![OnchainorStripeOnly](/images/4.png)
+<br>
+<textarea id="p1" rows="2" cols="40">
+LNURL1DP68GURN8GHJ77RZWSH8X6P0D3H82UNVWQHKZURF9AMRZTMVDE6HYMP0XYES299XS8
+</textarea>
+<br>
+<button type="submit" name="stripe" style="min-width:146px; min-height:40px; border-radius: 4px;border-style: none;background-color: #2795DA;" alt="Buy with Stripe"><span style="color:#fff"><p style="font-size:16px"><a href="https://buy.stripe.com/28odUM5ZI2LRfhmbII">Buy w/ Stripe</a></p></span>
+</button>
+</center>
+
 
 
