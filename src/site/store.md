@@ -77,11 +77,7 @@ The Wyoming Statutory Foundation, combines elements of well- established trust a
 <br><br>
 
 <br>
-![OnchainorStripeOnly](/images/99.png)
-<br>
-<textarea id="p1" rows="2" cols="40">
-XXXXX1DP68GURN8GHJ77RZWSH8X6P0D3H82UNVWQHKZURF9AMRZTMVDE6HYMP0XYCQSXXXXX
-</textarea>
+Onchain option coming soon. Stripe only for now.
 <br>
 <button type="submit" name="stripe" style="min-width:146px; min-height:40px; border-radius: 4px;border-style: none;background-color: #2795DA;" alt="Buy with Stripe"><span style="color:#fff"><p style="font-size:16px"><a href="https://buy.stripe.com/9AQcQIfAifyDedi4gk">Buy w/ Stripe</a></p></span>
 </button>
