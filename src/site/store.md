@@ -4,7 +4,7 @@ layout: layouts/base.njk
 subtitle: Purchase a word-list, starter kit, or WY SF today.
 ---
 
-## <a id="list"></a>**Physical BIP-39 Word-List - 3 USD**
+## <a id="list"></a>**📝 Physical BIP-39 Word-List - 3 USD**
 <center>
 <br>
 GPG Signed BIP-39 wordlist
@@ -26,7 +26,7 @@ LNURL1DP68GURN8GHJ77RZWSH8X6P0D3H82UNVWQHKZURF9AMRZTMVDE6HYMP0XYCQSEZYWJ
 </center>
 
 
-## <a id="kit"></a>**SAFU Self Custody Kit - 35 USD**
+## <a id="kit"></a>**📝🔩🔤 SAFU Self Custody Kit - 35 USD**
 <center>
 <br>
 Signed BIP-39 wordlist
@@ -51,7 +51,7 @@ LNURL1DP68GURN8GHJ77RZWSH8X6P0D3H82UNVWQHKZURF9AMRZTMVDE6HYMP0XYEQLYD795
 </button>
 </center>
 
-## <a id="safu"></a>**Add-on SAFU - 5 USD**
+## <a id="safu"></a>**🔩 Add-on SAFU - 5 USD**
 <center>
 <br>
 1pc. 18-8 stainless steel 1/4"-20 x 2", and cap nut
@@ -70,7 +70,7 @@ LNURL1DP68GURN8GHJ77RZWSH8X6P0D3H82UNVWQHKZURF9AMRZTMVDE6HYMP0XYCS9C2UMP
 </button>
 </center>
 
-## <a id="wysf"></a>**WY Statutory Foundation - 399 USD**
+## <a id="wysf"></a>**🔑 WY Statutory Foundation - 399 USD**
 <center>
 <br>
 The Wyoming Statutory Foundation, combines elements of well- established trust and corporate law in Wyoming with classical elements of foundation legislation found in civil law jurisdictions, while also providing access to Wyoming’s privacy and asset preservation laws.
@@ -87,7 +87,7 @@ XXXXX1DP68GURN8GHJ77RZWSH8X6P0D3H82UNVWQHKZURF9AMRZTMVDE6HYMP0XYCQSXXXXX
 </button>
 </center>
 
-## <a id="cust"></a>**Custom Order - X USD**
+## <a id="cust"></a>**🔥 Custom Order - X USD**
 <center>
 <br>
 Combination of the above items
